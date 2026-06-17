@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: traveloop-config
+  labels:
+    app: traveloop
+data:
+  DB_HOST: traveloop-rds.xxxxxxxxxxxx.us-east-1.rds.amazonaws.com
+  DB_NAME: traveloop
+  APP_ENV: production
+  UPLOAD_MAX_SIZE: "2097152"

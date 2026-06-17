@@ -1,0 +1,18 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: production
+
+resources:
+  - deployment.yaml
+  - service.yaml
+  - configmap.yaml
+  - ingress.yaml
+
+commonLabels:
+  app: traveloop
+  env: production
+
+images:
+  - name: 123456789012.dkr.ecr.us-east-1.amazonaws.com/traveloop
+    newTag: latest
