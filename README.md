@@ -5,6 +5,7 @@
   <em>A premium, full-stack solution for modern trip planning and financial tracking.</em>
 </p>
 
+
 <p align="center">
   <img src="https://img.shields.io/badge/PHP-8.2-blue.svg?style=for-the-badge&logo=php" alt="PHP Version">
   <img src="https://img.shields.io/badge/MySQL-8.0-orange.svg?style=for-the-badge&logo=mysql" alt="MySQL Version">
